@@ -18,25 +18,25 @@ This is LAB 06
 Run GitBash
 
 * Check Present Working Directory
-pwd
+**pwd**
 
 * Change to the C drive or other drive
-cd c:
+**cd c:**
 
 * Make a projects Directory
-mkdir projects
+**mkdir projects**
 
 * Change to the projects directory
-cd projects
+**cd projects**
 
 * Clone the project
-git clone https://bitbucket.org/MuddyGames/gameplay-programming-i-lab06.git
-
+**git clone https://bitbucket.org/MuddyGames/gameplay-programming-i-lab06.git
+**
 * Change to the project directory
-cd projects gameplay-programming-i-lab06
+**cd projects gameplay-programming-i-lab06**
 
 * Check files that were downloaded
-ls
+**ls**
 
 ### Who do I talk to? ###
 

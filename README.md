@@ -15,7 +15,7 @@ This is LAB 06
 * (http://www.sfml-dev.org/files/SFML-2.3.2-windows-vc14-32-bit.zip "SFML-2.3.2-windows-vc14-32-bit.zip")
 
 ### Cloning Repository ###
-Run GitBash
+* Run GitBash
 
 * Check Present Working Directory
 **pwd**

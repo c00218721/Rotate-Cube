@@ -1,4 +1,4 @@
-#include "Game.h"
+#include <Game.h>
 
 bool flip = false;
 int current = 1;

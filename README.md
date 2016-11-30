@@ -13,6 +13,7 @@ This is LAB 06
 * ensure SFML_SDK environment variable exits
 * ensure SFML Version SFML 2.3.2 Visual C++ 14 (2015) - 32-bit is installed
 * (http://www.sfml-dev.org/files/SFML-2.3.2-windows-vc14-32-bit.zip "SFML-2.3.2-windows-vc14-32-bit.zip")
+* Select a project default target 'x86' when running executable
 
 ### Cloning Repository ###
 * Run GitBash

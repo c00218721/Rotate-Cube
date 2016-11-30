@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD:SFMLOpenGL.vcxproj
     <ProjectGuid>{C1422D91-8723-495B-9286-9E6D7F4F5E8E}</ProjectGuid>
+=======
+    <ProjectGuid>{AE26FEC8-6D0B-4030-887A-184563E69C28}</ProjectGuid>
+>>>>>>> 4b2852748851e4bae51c20f939e0edd8660db8dc:SFMLOpenGL/SFMLOpenGL.vcxproj
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>SFMLOpenGL</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -71,8 +75,14 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+<<<<<<< HEAD:SFMLOpenGL.vcxproj
     <IncludePath>$(SFML_SDK)\include;$(ProjectDir);$(IncludePath)</IncludePath>
     <LibraryPath>$(SFML_SDK)\lib;$(LibraryPath)</LibraryPath>
+=======
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+>>>>>>> 4b2852748851e4bae51c20f939e0edd8660db8dc:SFMLOpenGL/SFMLOpenGL.vcxproj
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -90,10 +100,27 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD:SFMLOpenGL.vcxproj
+=======
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+>>>>>>> 4b2852748851e4bae51c20f939e0edd8660db8dc:SFMLOpenGL/SFMLOpenGL.vcxproj
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+<<<<<<< HEAD:SFMLOpenGL.vcxproj
       <AdditionalDependencies>sfml-main-d.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-network-d.lib;sfml-system-d.lib;sfml-window-d.lib;OpenGL32.lib;GlU32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
@@ -112,6 +139,9 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+=======
+    </Link>
+>>>>>>> 4b2852748851e4bae51c20f939e0edd8660db8dc:SFMLOpenGL/SFMLOpenGL.vcxproj
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -148,11 +178,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD:SFMLOpenGL.vcxproj
     <ClInclude Include="Game.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main.cpp" />
+=======
+>>>>>>> 4b2852748851e4bae51c20f939e0edd8660db8dc:SFMLOpenGL/SFMLOpenGL.vcxproj
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

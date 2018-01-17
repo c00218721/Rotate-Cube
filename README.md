@@ -1,10 +1,10 @@
 # README #
 
-This is LAB 06
+This is LAB 07
 
 ### What is this repository for? ###
 
-* Lab 06 Experiment with a Cube
+* Lab 07 Experiment with a Cube
 
 ### How do I get set up? ###
 
@@ -27,9 +27,9 @@ http://www.sfml-dev.org/files/SFML-2.3.2-windows-vc14-32-bit.zip "SFML-2.3.2-win
 
 * Change to the projects directory by `cd projects`
 
-* Clone the project `git clone https://MuddyGames@bitbucket.org/MuddyGames/gameplay-programming-i-lab06.git`
+* Clone the project `git clone https://MuddyGames@bitbucket.org/MuddyGames/gameplay-programming-i-lab-07.git`
 
-* Change to the project directory `cd projects gameplay-programming-i-lab06`
+* Change to the project directory `cd projects gameplay-programming-i-lab-07`
 
 * List files that were downloaded `ls`
 

@@ -20,7 +20,6 @@ private:
 	void update();
 	void draw();
 	void unload();
-	const int primitives;
 
 	GLuint index;
 	Clock clock;

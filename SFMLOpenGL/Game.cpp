@@ -1,11 +1,10 @@
 #include "Game.h"
 
-bool flip = false;
-int current = 1;
+bool updatable = false;
 
-Game::Game() : window(VideoMode(800, 600), "OpenGL Cube"), primitives(1)
+Game::Game() : window(VideoMode(800, 600), "OpenGL Cube")
 {
-	index = glGenLists(primitives);
+	index = glGenLists(1);
 }
 
 Game::~Game(){}
@@ -79,20 +78,15 @@ void Game::update()
 	{
 		clock.restart();
 
-		if (!flip)
+		if (!updatable)
 		{
-			flip = true;
-			current++;
-			if (current > primitives)
-			{
-				current = 1;
-			}
+			updatable = true;
 		}
 		else
-			flip = false;
+			updatable = false;
 	}
 
-	if (flip)
+	if (updatable)
 	{
 		rotationAngle += 0.005f;
 
@@ -111,11 +105,11 @@ void Game::draw()
 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-	cout << "Drawing Cube " << current << endl;
+	cout << "Drawing Cube " << endl;
 	glLoadIdentity();
 	glRotatef(rotationAngle, 0, 1, 0); // Rotates the camera on Y Axis
 
-	glCallList(current);
+	glCallList(1);
 
 	window.display();
 
